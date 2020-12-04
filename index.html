@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c0b981b23b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Niconne&family=Jura:wght@300&family=Tangerine&display=swap" rel="stylesheet">
+    
+    <title>Portfolio</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#"><i class="fa fa-home" aria-hidden="true">Home</i></a>
+                <a href="#"><i class="fa fa-info-circle" aria-hidden="true"href="#">About</i></a>
+                <a href="#"><i class="fa fa-user-plus" aria-hidden="true" href="#square">Sign Up</i></a>
+                <a href="#"><i class="fa fa-cog" aria-hidden="true"href="#">Services</i></a>
+                <a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"href="#">News</i></a>
+                <a href="#"><i class="fa fa-phone-square" aria-hidden="true" href="#">Contacts</i></a>
+                <a href="#" class="icon" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true" href="#"></i></a>
+            </div>
+        </nav>
+  
+        <div id="dock">
+          <h1 id="name">Aathi Raj</h1><br>
+            <p id="designation">(A Front End Developer  &  Sports Lover)</p>
+        </div>
+    </header>
+    <main>
+        <div id="about">
+            <h1 class="about-info">My Projects</h1>
+        <div class="lonely">
+        
+        <div id="MyProfile">
+            <a href="aathi-raj-h.github.io/pro"><img src="images/Capture.JPG" alt="ironman" class="role"></a>
+            <p  class="about-info">One of my favourite project,<br> I've made it for a local advertising company nearby, Projects are shown clearly which they've done earlier.It really gives a clear information about the company for the users. </p>
+            <a href="aathi-raj-h.github.io/climate"><img src="images/Capture2.JPG" alt="thor" class="role"></a>
+            <p  class="about-info">Climate Indicator<br>I've made it just to know more about javaScript, I've learnt more about API's and Callbacks and Libraries of javaScript. </p>
+        </div>
+    </div>
+           
+        
+    </div>
+    </main>
+    <section>
+        <div id="app-wrap">
+            <div>
+                <h1 id="bom"> LogIn...<br>To know more about my Future Plans...<br>Hope you'll like my Website </h1>
+            </div>            
+            <div id="square">
+                <form action="/" method="POST" > 
+                    <label for="user-name" name="user" id= "user" >Your User ID:</label><br>
+                    <input type="text" name="user" placeholder="Your User Id"class="big"><br><br>
+                    <label for="Email" name="Mail" id= "Mail">Your Email:</label><br>
+                    <input type="email" name="Mail" placeholder="Your Email Id"class="big"><br><br>
+                    <label for="password" name="password" id= "password"> Your Password:</label><br>
+                    <input type="password" name="password" placeholder="password"class="big"><br> <br>
+                    <br>     
+                    <label for="Authentication">Authentication Number:</label> <br>
+                    <input type="text" name="authentication" placeholder="Authentication Number" class="big" autocomplete="off">
+                    <select name="Authentication" id="Authentication" aria-placeholder="Authentication"><br>
+                        <option value="Aadhaar">Aadhaar Card</option>
+                        <option value="PassPort">PassPort</option>
+                        <option value="License">License</option>
+                        </select> <br><br><br>
+                        <button  type="submit" id="submit">Submit</button>
+                    </div>
+        </div>
+      
+
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
